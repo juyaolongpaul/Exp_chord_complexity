@@ -44,8 +44,6 @@ class ExpController(QWidget, PairCompTestView.Ui_Form):
         self.setupUi(self)
 
         self.player = Player()
-
-        # TODO: [DONE] the path of exp shouldn't be fixed!
         dirName = QFileDialog.getExistingDirectory(self, "Open Experiment Directory", QString())
         qDebug(dirName)
         self.m_model = PairCompTestModel.ExpModel(str(dirName))  # this is a model
