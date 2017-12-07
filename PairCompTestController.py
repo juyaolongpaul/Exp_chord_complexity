@@ -10,12 +10,21 @@ from PyQt4.QtGui import *
 class Dialog(QDialog):
     def __init__(self, parent=None):
         QDialog.__init__(self, parent)
-        self.resize(240, 200)
+        self.resize(500, 200)
         grid = QGridLayout()
 
         grid.addWidget(QLabel("McGill ID:", parent=self), 0, 0, 1, 1)
         self.leName = QLineEdit(parent=self)
         grid.addWidget(self.leName, 0, 1, 1, 1)
+        grid.addWidget(QLabel("Age:", parent=self), 1, 0, 1, 1)
+        self.age = QLineEdit(parent=self)
+        grid.addWidget(self.age, 1, 1, 1, 1)
+        grid.addWidget(QLabel("Estimate years of formal musical training:", parent=self), 2, 0, 1, 1)
+        self.year = QLineEdit(parent=self)
+        grid.addWidget(self.year, 2, 1, 1, 1)
+        grid.addWidget(QLabel("Do you have absolute pitch? (Y/N)", parent=self), 3, 0, 1, 1)
+        self.pitch = QLineEdit(parent=self)
+        grid.addWidget(self.pitch, 3, 1, 1, 1)
 
         buttonBox = QDialogButtonBox(parent=self)
         buttonBox.setOrientation(Qt.Horizontal)
@@ -30,7 +39,7 @@ class Dialog(QDialog):
         self.setLayout(layout)
 
     def name(self):
-        return self.leName.text()
+        return self.leName.text(), self.age.text(), self.year.text(), self.pitch.text()
 
 
 class ExpController(QWidget, PairCompTestView.Ui_Form):
@@ -57,8 +66,7 @@ class ExpController(QWidget, PairCompTestView.Ui_Form):
         #self.btnRef_2.clicked.connect(self.playRef_3)
         dialog = Dialog(parent=self)
         if dialog.exec_():
-            self.m_model.testerName = dialog.name()
-
+            self.m_model.testerName, self.m_model.testerAge, self.m_model.testerYears, self.m_model.testerPitch = dialog.name()
     def closeEvent(self, event):
         del self.player
         event.accept()
