@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="58d661af-ec6c-4bbf-a82b-d2f2c1f42d63" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PairCompTestView.ui" afterPath="$PROJECT_DIR$/PairCompTestView.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/exp_chord_complexity.iml" afterPath="$PROJECT_DIR$/.idea/exp_chord_complexity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PairCompTestModel.py" afterPath="$PROJECT_DIR$/PairCompTestModel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PairCompTestView.py" afterPath="$PROJECT_DIR$/PairCompTestView.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libAudioPlayer.py" afterPath="$PROJECT_DIR$/libAudioPlayer.py" />
     </list>
     <ignored path="Exp_chord_complexity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +52,8 @@
       <file leaf-file-name="libAudioPlayer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libAudioPlayer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+            <state relative-caret-position="177">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -98,8 +91,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="375" />
-    <option name="y" value="318" />
+    <option name="x" value="112" />
+    <option name="y" value="133" />
     <option name="width" value="1440" />
     <option name="height" value="725" />
   </component>
@@ -426,10 +419,18 @@
       <option name="presentableId" value="Default" />
       <updated>1512593961193</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second version. Instructions added. 100 ratings, 50 chords, each got rated twice">
+      <created>1512618211037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512618211038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="375" y="318" width="1440" height="725" extended-state="0" />
+    <frame x="112" y="133" width="1440" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -462,6 +463,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second version. Instructions added. 100 ratings, 50 chords, each got rated twice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second version. Instructions added. 100 ratings, 50 chords, each got rated twice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libAudioPlayer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+        <state relative-caret-position="177">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
