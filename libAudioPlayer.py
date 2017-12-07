@@ -48,7 +48,10 @@ class PlayerWorker(threading.Thread):
                 if "stream" in dir(self):
                     # self.stream.stop_stream()
                     self.stream.close()
-                self.waveFileName = command[1]
+                wave_path = command[1]
+                wave_path = wave_path.replace('.DS_Store', 'nat')  # IOError: [Errno 20] Not a directory
+                # : '/Users/yaolongju/Downloads/Exp_chord_complexity_standalone/Ref/.DS_Store/Chord 5.wav'
+                self.waveFileName = wave_path
                 self.wf = wave.open(self.waveFileName, 'rb')
                 self.stream = self.p.open(format = self.p.get_format_from_width(self.wf.getsampwidth()),
                         channels = self.wf.getnchannels(),

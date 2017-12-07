@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\User\PycharmProjects\MUMT615\exp_chord_complexity\PairCompTestView.ui'
+# Form implementation generated from reading ui file '/Users/yaolongju/PycharmProjects/Exp_chord_complexity/PairCompTestView.ui'
 #
-# Created by: PyQt4 UI code generator 4.11.4
+# Created by: PyQt4 UI code generator 4.12.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -53,11 +53,11 @@ class Ui_Form(object):
         self.sldScore.setTickPosition(QtGui.QSlider.TicksBothSides)
         self.sldScore.setObjectName(_fromUtf8("sldScore"))
         self.label_2 = QtGui.QLabel(Form)
-        self.label_2.setGeometry(QtCore.QRect(20, 270, 341, 151))
+        self.label_2.setGeometry(QtCore.QRect(10, 250, 341, 151))
         self.label_2.setWordWrap(True)
         self.label_2.setObjectName(_fromUtf8("label_2"))
         self.label_4 = QtGui.QLabel(Form)
-        self.label_4.setGeometry(QtCore.QRect(20, 250, 451, 16))
+        self.label_4.setGeometry(QtCore.QRect(30, 250, 451, 16))
         self.label_4.setObjectName(_fromUtf8("label_4"))
         self.btnNext = QtGui.QPushButton(Form)
         self.btnNext.setGeometry(QtCore.QRect(370, 300, 101, 111))
@@ -75,7 +75,7 @@ class Ui_Form(object):
         self.btnRef.setText(_translate("Form", "Chord", None))
         self.label_3.setText(_translate("Form", "Progress：", None))
         self.label.setText(_translate("Form", "Rating：", None))
-        self.label_2.setText(_translate("Form", "<html><head/><body><p>Instructions:</p><p>???</p></body></html>", None))
-        self.label_4.setText(_translate("Form", "1                2                 3                4                5                6               7", None))
+        self.label_2.setText(_translate("Form", "<html><head/><body><p>Instructions:</p><p><span style=\" font-family:\'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif\'; font-size:10pt; color:#000000; background-color:#f1f0f0;\">To begin the experiment, press the button labeled “Chord.” You will hear the chord only once. After listening to the example, rate how “complex” you think the chord is using the sliding scale: 1 = least complex; 7= most complex. </span></p><p><span style=\" font-family:\'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif\'; font-size:10pt; color:#000000; background-color:#f1f0f0;\">To record your response, click the “Next” button, and press “Chord” again to listen to the next example.</span></p></body></html>", None))
+        self.label_4.setText(_translate("Form", "1                  2                   3                  4                  5                 6                7", None))
         self.btnNext.setText(_translate("Form", "Next", None))
 
