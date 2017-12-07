@@ -13,7 +13,7 @@ class ExpModel:
 
     def getExpSeq(self, Random = True):
         self.expSeq = []
-        for i in range(5):#len(self.indexListN) * 2):
+        for i in range(len(self.indexListN) * 3):  # 150 chords to rate
             stims = [ self.PathSystemFolder + k + os.path.sep + self.pathStims[k][i % 50] for k in self.pathStims.keys() ]
             pairs = list(permutations(stims, 2))
             pairs = [ list(item) for item in pairs ]

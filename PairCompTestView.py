@@ -63,7 +63,7 @@ class Ui_Form(object):
         self.btnNext.setGeometry(QtCore.QRect(370, 300, 101, 111))
         self.btnNext.setObjectName(_fromUtf8("btnNext"))
         self.lbProg = QtGui.QLabel(Form)
-        self.lbProg.setGeometry(QtCore.QRect(90, 450, 261, 21))
+        self.lbProg.setGeometry(QtCore.QRect(80, 450, 261, 21))
         self.lbProg.setText(_fromUtf8(""))
         self.lbProg.setObjectName(_fromUtf8("lbProg"))
 
@@ -75,7 +75,7 @@ class Ui_Form(object):
         self.btnRef.setText(_translate("Form", "Chord", None))
         self.label_3.setText(_translate("Form", "Progress：", None))
         self.label.setText(_translate("Form", "Rating：", None))
-        self.label_2.setText(_translate("Form", "<html><head/><body><p>Instructions:</p><p><span style=\" font-family:\'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif\'; font-size:10pt; color:#000000; background-color:#f1f0f0;\">You will hear the chord only once. After listening to the example, rate how “complex” you think the chord is using the sliding scale: 1 = least complex; 7= most complex.</span></p><p><span style=\" font-family:\'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif\'; font-size:10pt; color:#000000; background-color:#f1f0f0;\">To begin the experiment, press the button labeled “Chord.” To record your response, drag the slider to your chosen complexity rating 1-7, and click the “Next” button. Then, press “Chord” again to listen to the next example.</span></p><p><span style=\" font-family:\'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif\'; font-size:10pt; color:#000000; background-color:#f1f0f0;\">When clicking &quot;Next&quot;, the program will halt for 5s, and when you see the number in &quot;Progress:&quot; increases, you can proceed.</span></p></body></html>", None))
+        self.label_2.setText(_translate("Form", "<html><head/><body><p>Instructions:</p><p><span style=\" font-family:\'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif\'; font-size:10pt; color:#000000; background-color:#f1f0f0;\">This experiment contains 150 audio examples of chords. You will hear each chord only once. After listening to each chord, you will give your rating, based on how “complex” you think the chord is, by using the sliding scale: 1 = least complex; 7 = most complex.</span></p><p><span style=\" font-family:\'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif\'; font-size:10pt; color:#000000; background-color:#f1f0f0;\">To begin the experiment, press the button labeled “Chord.” To record your response, drag the slider to your chosen complexity rating (1-7), and click the “Next” button. The program will pause for 5 seconds. After 5 seconds or when the “Progress” number increases by one, you may proceed. Press “Chord” again to listen to the next example.</span><br/></p></body></html>", None))
         self.label_4.setText(_translate("Form", "1                  2                   3                  4                  5                 6                7", None))
         self.btnNext.setText(_translate("Form", "Next", None))
 

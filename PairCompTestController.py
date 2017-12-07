@@ -104,7 +104,7 @@ class ExpController(QWidget, PairCompTestView.Ui_Form):
         qDebug("stimCounter: " + str(self.stimCounter))
         #self.lbProg.setText("%d/%d. Please wait 5s after clicking 'Next'" % (self.stimCounter + 1, len(self.stimSeq)))
         time.sleep(5)  # let the user wait for 5s
-        self.lbProg.setText("%d/%d." % (self.stimCounter + 1, len(self.stimSeq)))
+        self.lbProg.setText("%d/%d" % (self.stimCounter + 1, len(self.stimSeq)))
         #QMessageBox.information(self, 'Please wait', 'Please wait 10s')
         '''msgBox = QMessageBox()
         msgBox.setText("Please wait 10s")

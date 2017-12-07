@@ -103,14 +103,14 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>230</y>
+     <x>20</x>
+     <y>240</y>
      <width>341</width>
      <height>191</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Instructions:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif'; font-size:10pt; color:#000000; background-color:#f1f0f0;&quot;&gt;You will hear the chord only once. After listening to the example, rate how “complex” you think the chord is using the sliding scale: 1 = least complex; 7= most complex.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif'; font-size:10pt; color:#000000; background-color:#f1f0f0;&quot;&gt;To begin the experiment, press the button labeled “Chord.” To record your response, drag the slider to your chosen complexity rating 1-7, and click the “Next” button. Then, press “Chord” again to listen to the next example.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif'; font-size:10pt; color:#000000; background-color:#f1f0f0;&quot;&gt;When clicking &amp;quot;Next&amp;quot;, the program will halt for 5s, and when you see the number in &amp;quot;Progress:&amp;quot; increases, you can proceed.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Instructions:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif'; font-size:10pt; color:#000000; background-color:#f1f0f0;&quot;&gt;This experiment contains 150 audio examples of chords. You will hear each chord only once. After listening to each chord, you will give your rating, based on how “complex” you think the chord is, by using the sliding scale: 1 = least complex; 7 = most complex.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif'; font-size:10pt; color:#000000; background-color:#f1f0f0;&quot;&gt;To begin the experiment, press the button labeled “Chord.” To record your response, drag the slider to your chosen complexity rating (1-7), and click the “Next” button. The program will pause for 5 seconds. After 5 seconds or when the “Progress” number increases by one, you may proceed. Press “Chord” again to listen to the next example.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'SF Optimized,system-ui,-apple-system,BlinkMacSystemFont,.SFNSText-Regular,sans-serif'; font-size:10pt; color:#000000; background-color:#f1f0f0;&quot;&gt;Ensure your computer speakers, headphones, or other speaker system are at a comfortable listening volume.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="wordWrap">
     <bool>true</bool>
@@ -145,7 +145,7 @@
   <widget class="QLabel" name="lbProg">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>80</x>
      <y>450</y>
      <width>261</width>
      <height>21</height>
